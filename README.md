@@ -1,0 +1,2 @@
+# GitPractice
+Acing GIT commands
