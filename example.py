@@ -3,3 +3,13 @@ def git_opeation():
 git_opeation()
 # for print somthing
 print("hello world")   
+
+def num(l):
+    number=[]
+    for i in range(1,len(l)+1):
+        a=l.pop()
+        number.append(a)
+    return number
+
+n=list(range(1,5))
+print(num(n))
